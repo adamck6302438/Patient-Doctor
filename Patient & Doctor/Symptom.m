@@ -10,4 +10,18 @@
 
 @implementation Symptom
 
+- (instancetype)initSymptom: (NSString *)symptom
+{
+    self = [super init];
+    if (self) {
+        _symptom = symptom;
+    }
+    return self;
+}
+
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"%@", self.symptom];
+}
+
 @end

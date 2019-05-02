@@ -7,10 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Symptom.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Prescriptoin : NSObject
+
+@property (nonatomic, readonly) NSDictionary* prescriptionDict;
+@property (nonatomic, strong) NSMutableSet* prescription;
+
+- (void) addToPrescription:(NSString *)medication;
 
 @end
 

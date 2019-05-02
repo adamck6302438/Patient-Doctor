@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0DFDC9A3227B2574001053FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFDC9A2227B2574001053FB /* main.m */; };
+		0DFDC9AB227B2589001053FB /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFDC9AA227B2589001053FB /* Doctor.m */; };
+		0DFDC9AE227B2596001053FB /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFDC9AD227B2596001053FB /* Patient.m */; };
+		0DFDC9B1227B26E7001053FB /* Symptom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFDC9B0227B26E7001053FB /* Symptom.m */; };
+		0DFDC9B4227B26FB001053FB /* Prescriptoin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFDC9B3227B26FB001053FB /* Prescriptoin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		0DFDC99F227B2574001053FB /* Patient & Doctor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Patient & Doctor"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFDC9A2227B2574001053FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DFDC9A9227B2589001053FB /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		0DFDC9AA227B2589001053FB /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		0DFDC9AC227B2596001053FB /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		0DFDC9AD227B2596001053FB /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		0DFDC9AF227B26E7001053FB /* Symptom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Symptom.h; sourceTree = "<group>"; };
+		0DFDC9B0227B26E7001053FB /* Symptom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Symptom.m; sourceTree = "<group>"; };
+		0DFDC9B2227B26FB001053FB /* Prescriptoin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prescriptoin.h; sourceTree = "<group>"; };
+		0DFDC9B3227B26FB001053FB /* Prescriptoin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prescriptoin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				0DFDC9A2227B2574001053FB /* main.m */,
+				0DFDC9A9227B2589001053FB /* Doctor.h */,
+				0DFDC9AA227B2589001053FB /* Doctor.m */,
+				0DFDC9AC227B2596001053FB /* Patient.h */,
+				0DFDC9AD227B2596001053FB /* Patient.m */,
+				0DFDC9AF227B26E7001053FB /* Symptom.h */,
+				0DFDC9B0227B26E7001053FB /* Symptom.m */,
+				0DFDC9B2227B26FB001053FB /* Prescriptoin.h */,
+				0DFDC9B3227B26FB001053FB /* Prescriptoin.m */,
 			);
 			path = "Patient & Doctor";
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFDC9AE227B2596001053FB /* Patient.m in Sources */,
+				0DFDC9B1227B26E7001053FB /* Symptom.m in Sources */,
+				0DFDC9AB227B2589001053FB /* Doctor.m in Sources */,
 				0DFDC9A3227B2574001053FB /* main.m in Sources */,
+				0DFDC9B4227B26FB001053FB /* Prescriptoin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

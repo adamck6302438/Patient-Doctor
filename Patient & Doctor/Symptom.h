@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Symptom : NSObject
 
+@property (nonatomic, strong) NSString* symptom;
+
 @end
 
 NS_ASSUME_NONNULL_END
